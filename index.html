@@ -11,7 +11,9 @@
   --big:url(images/20220114101544_920f3.png);
 }
 *{box-sizing:border-box}
-a{-webkit-tap-highlight-color:transparent}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none}
+a{outline:none;-webkit-user-select:none;user-select:none}
+a:focus,a:active{outline:none;background-clip:padding-box}
 .card:active,.big:active{transform:scale(.98)}
 body{margin:0;background:#000;color:#fff;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;display:flex;justify-content:center}
 .wrap{width:100%;max-width:480px;padding-bottom:40px}
